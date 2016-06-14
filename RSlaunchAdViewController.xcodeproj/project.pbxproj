@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43CD2CF11D0FD18600580EF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43CD2CF01D0FD18600580EF0 /* main.m */; };
+		43CD2CF41D0FD18600580EF0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43CD2CF31D0FD18600580EF0 /* AppDelegate.m */; };
+		43CD2CF71D0FD18600580EF0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43CD2CF61D0FD18600580EF0 /* ViewController.m */; };
+		43CD2CFA1D0FD18600580EF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43CD2CF81D0FD18600580EF0 /* Main.storyboard */; };
+		43CD2CFC1D0FD18600580EF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43CD2CFB1D0FD18600580EF0 /* Assets.xcassets */; };
+		43CD2CFF1D0FD18600580EF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43CD2CFD1D0FD18600580EF0 /* LaunchScreen.storyboard */; };
+		43CD2D0A1D0FD18600580EF0 /* RSlaunchAdViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43CD2D091D0FD18600580EF0 /* RSlaunchAdViewControllerTests.m */; };
+		43CD2D151D0FD18600580EF0 /* RSlaunchAdViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43CD2D141D0FD18600580EF0 /* RSlaunchAdViewControllerUITests.m */; };
+		43CD2D241D0FD1E700580EF0 /* RSLaunchAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 43CD2D231D0FD1E700580EF0 /* RSLaunchAdView.m */; };
+		AD55796127BD1516ABA284F1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32C368237B4EC0E5F6A9C22F /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43CD2D061D0FD18600580EF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43CD2CE41D0FD18600580EF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43CD2CEB1D0FD18600580EF0;
+			remoteInfo = RSlaunchAdViewController;
+		};
+		43CD2D111D0FD18600580EF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43CD2CE41D0FD18600580EF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43CD2CEB1D0FD18600580EF0;
+			remoteInfo = RSlaunchAdViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32C368237B4EC0E5F6A9C22F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		43CD2CEC1D0FD18600580EF0 /* RSlaunchAdViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSlaunchAdViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43CD2CF01D0FD18600580EF0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		43CD2CF21D0FD18600580EF0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		43CD2CF31D0FD18600580EF0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		43CD2CF51D0FD18600580EF0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		43CD2CF61D0FD18600580EF0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		43CD2CF91D0FD18600580EF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		43CD2CFB1D0FD18600580EF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43CD2CFE1D0FD18600580EF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		43CD2D001D0FD18600580EF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43CD2D051D0FD18600580EF0 /* RSlaunchAdViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSlaunchAdViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43CD2D091D0FD18600580EF0 /* RSlaunchAdViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSlaunchAdViewControllerTests.m; sourceTree = "<group>"; };
+		43CD2D0B1D0FD18600580EF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43CD2D101D0FD18600580EF0 /* RSlaunchAdViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSlaunchAdViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43CD2D141D0FD18600580EF0 /* RSlaunchAdViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSlaunchAdViewControllerUITests.m; sourceTree = "<group>"; };
+		43CD2D161D0FD18600580EF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43CD2D221D0FD1E700580EF0 /* RSLaunchAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSLaunchAdView.h; sourceTree = "<group>"; };
+		43CD2D231D0FD1E700580EF0 /* RSLaunchAdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSLaunchAdView.m; sourceTree = "<group>"; };
+		6C0060B6C8181FF90DB4DC2E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		9F625BAB71BE5B0D9033CEDD /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43CD2CE91D0FD18600580EF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD55796127BD1516ABA284F1 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43CD2D021D0FD18600580EF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43CD2D0D1D0FD18600580EF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43CD2CE31D0FD18600580EF0 = {
+			isa = PBXGroup;
+			children = (
+				43CD2CEE1D0FD18600580EF0 /* RSlaunchAdViewController */,
+				43CD2D081D0FD18600580EF0 /* RSlaunchAdViewControllerTests */,
+				43CD2D131D0FD18600580EF0 /* RSlaunchAdViewControllerUITests */,
+				43CD2CED1D0FD18600580EF0 /* Products */,
+				4C3E7865260957087A808225 /* Pods */,
+				C923536B2E82F64601CD68DB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		43CD2CED1D0FD18600580EF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43CD2CEC1D0FD18600580EF0 /* RSlaunchAdViewController.app */,
+				43CD2D051D0FD18600580EF0 /* RSlaunchAdViewControllerTests.xctest */,
+				43CD2D101D0FD18600580EF0 /* RSlaunchAdViewControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43CD2CEE1D0FD18600580EF0 /* RSlaunchAdViewController */ = {
+			isa = PBXGroup;
+			children = (
+				43CD2D221D0FD1E700580EF0 /* RSLaunchAdView.h */,
+				43CD2D231D0FD1E700580EF0 /* RSLaunchAdView.m */,
+				43CD2CF21D0FD18600580EF0 /* AppDelegate.h */,
+				43CD2CF31D0FD18600580EF0 /* AppDelegate.m */,
+				43CD2CF51D0FD18600580EF0 /* ViewController.h */,
+				43CD2CF61D0FD18600580EF0 /* ViewController.m */,
+				43CD2CF81D0FD18600580EF0 /* Main.storyboard */,
+				43CD2CFB1D0FD18600580EF0 /* Assets.xcassets */,
+				43CD2CFD1D0FD18600580EF0 /* LaunchScreen.storyboard */,
+				43CD2D001D0FD18600580EF0 /* Info.plist */,
+				43CD2CEF1D0FD18600580EF0 /* Supporting Files */,
+			);
+			path = RSlaunchAdViewController;
+			sourceTree = "<group>";
+		};
+		43CD2CEF1D0FD18600580EF0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43CD2CF01D0FD18600580EF0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		43CD2D081D0FD18600580EF0 /* RSlaunchAdViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				43CD2D091D0FD18600580EF0 /* RSlaunchAdViewControllerTests.m */,
+				43CD2D0B1D0FD18600580EF0 /* Info.plist */,
+			);
+			path = RSlaunchAdViewControllerTests;
+			sourceTree = "<group>";
+		};
+		43CD2D131D0FD18600580EF0 /* RSlaunchAdViewControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				43CD2D141D0FD18600580EF0 /* RSlaunchAdViewControllerUITests.m */,
+				43CD2D161D0FD18600580EF0 /* Info.plist */,
+			);
+			path = RSlaunchAdViewControllerUITests;
+			sourceTree = "<group>";
+		};
+		4C3E7865260957087A808225 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C0060B6C8181FF90DB4DC2E /* Pods.debug.xcconfig */,
+				9F625BAB71BE5B0D9033CEDD /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C923536B2E82F64601CD68DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32C368237B4EC0E5F6A9C22F /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43CD2CEB1D0FD18600580EF0 /* RSlaunchAdViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43CD2D191D0FD18600580EF0 /* Build configuration list for PBXNativeTarget "RSlaunchAdViewController" */;
+			buildPhases = (
+				50DBCF4F2E44D5ABF7367A8F /* Check Pods Manifest.lock */,
+				43CD2CE81D0FD18600580EF0 /* Sources */,
+				43CD2CE91D0FD18600580EF0 /* Frameworks */,
+				43CD2CEA1D0FD18600580EF0 /* Resources */,
+				AF1EBA31F53CCA7082E42797 /* Embed Pods Frameworks */,
+				EC1D957F8D1D27B9330B624B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSlaunchAdViewController;
+			productName = RSlaunchAdViewController;
+			productReference = 43CD2CEC1D0FD18600580EF0 /* RSlaunchAdViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		43CD2D041D0FD18600580EF0 /* RSlaunchAdViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43CD2D1C1D0FD18600580EF0 /* Build configuration list for PBXNativeTarget "RSlaunchAdViewControllerTests" */;
+			buildPhases = (
+				43CD2D011D0FD18600580EF0 /* Sources */,
+				43CD2D021D0FD18600580EF0 /* Frameworks */,
+				43CD2D031D0FD18600580EF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43CD2D071D0FD18600580EF0 /* PBXTargetDependency */,
+			);
+			name = RSlaunchAdViewControllerTests;
+			productName = RSlaunchAdViewControllerTests;
+			productReference = 43CD2D051D0FD18600580EF0 /* RSlaunchAdViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		43CD2D0F1D0FD18600580EF0 /* RSlaunchAdViewControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43CD2D1F1D0FD18600580EF0 /* Build configuration list for PBXNativeTarget "RSlaunchAdViewControllerUITests" */;
+			buildPhases = (
+				43CD2D0C1D0FD18600580EF0 /* Sources */,
+				43CD2D0D1D0FD18600580EF0 /* Frameworks */,
+				43CD2D0E1D0FD18600580EF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43CD2D121D0FD18600580EF0 /* PBXTargetDependency */,
+			);
+			name = RSlaunchAdViewControllerUITests;
+			productName = RSlaunchAdViewControllerUITests;
+			productReference = 43CD2D101D0FD18600580EF0 /* RSlaunchAdViewControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43CD2CE41D0FD18600580EF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Ricky;
+				TargetAttributes = {
+					43CD2CEB1D0FD18600580EF0 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					43CD2D041D0FD18600580EF0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 43CD2CEB1D0FD18600580EF0;
+					};
+					43CD2D0F1D0FD18600580EF0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 43CD2CEB1D0FD18600580EF0;
+					};
+				};
+			};
+			buildConfigurationList = 43CD2CE71D0FD18600580EF0 /* Build configuration list for PBXProject "RSlaunchAdViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43CD2CE31D0FD18600580EF0;
+			productRefGroup = 43CD2CED1D0FD18600580EF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43CD2CEB1D0FD18600580EF0 /* RSlaunchAdViewController */,
+				43CD2D041D0FD18600580EF0 /* RSlaunchAdViewControllerTests */,
+				43CD2D0F1D0FD18600580EF0 /* RSlaunchAdViewControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43CD2CEA1D0FD18600580EF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43CD2CFF1D0FD18600580EF0 /* LaunchScreen.storyboard in Resources */,
+				43CD2CFC1D0FD18600580EF0 /* Assets.xcassets in Resources */,
+				43CD2CFA1D0FD18600580EF0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43CD2D031D0FD18600580EF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43CD2D0E1D0FD18600580EF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		50DBCF4F2E44D5ABF7367A8F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AF1EBA31F53CCA7082E42797 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC1D957F8D1D27B9330B624B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43CD2CE81D0FD18600580EF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43CD2CF71D0FD18600580EF0 /* ViewController.m in Sources */,
+				43CD2CF41D0FD18600580EF0 /* AppDelegate.m in Sources */,
+				43CD2CF11D0FD18600580EF0 /* main.m in Sources */,
+				43CD2D241D0FD1E700580EF0 /* RSLaunchAdView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43CD2D011D0FD18600580EF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43CD2D0A1D0FD18600580EF0 /* RSlaunchAdViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43CD2D0C1D0FD18600580EF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43CD2D151D0FD18600580EF0 /* RSlaunchAdViewControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43CD2D071D0FD18600580EF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43CD2CEB1D0FD18600580EF0 /* RSlaunchAdViewController */;
+			targetProxy = 43CD2D061D0FD18600580EF0 /* PBXContainerItemProxy */;
+		};
+		43CD2D121D0FD18600580EF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43CD2CEB1D0FD18600580EF0 /* RSlaunchAdViewController */;
+			targetProxy = 43CD2D111D0FD18600580EF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		43CD2CF81D0FD18600580EF0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43CD2CF91D0FD18600580EF0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		43CD2CFD1D0FD18600580EF0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43CD2CFE1D0FD18600580EF0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43CD2D171D0FD18600580EF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		43CD2D181D0FD18600580EF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43CD2D1A1D0FD18600580EF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C0060B6C8181FF90DB4DC2E /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				INFOPLIST_FILE = RSlaunchAdViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cjzkw.RSlaunchAdViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		43CD2D1B1D0FD18600580EF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F625BAB71BE5B0D9033CEDD /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				INFOPLIST_FILE = RSlaunchAdViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cjzkw.RSlaunchAdViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		43CD2D1D1D0FD18600580EF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RSlaunchAdViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cjzkw.RSlaunchAdViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSlaunchAdViewController.app/RSlaunchAdViewController";
+			};
+			name = Debug;
+		};
+		43CD2D1E1D0FD18600580EF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RSlaunchAdViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cjzkw.RSlaunchAdViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSlaunchAdViewController.app/RSlaunchAdViewController";
+			};
+			name = Release;
+		};
+		43CD2D201D0FD18600580EF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RSlaunchAdViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cjzkw.RSlaunchAdViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RSlaunchAdViewController;
+			};
+			name = Debug;
+		};
+		43CD2D211D0FD18600580EF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RSlaunchAdViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cjzkw.RSlaunchAdViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RSlaunchAdViewController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43CD2CE71D0FD18600580EF0 /* Build configuration list for PBXProject "RSlaunchAdViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43CD2D171D0FD18600580EF0 /* Debug */,
+				43CD2D181D0FD18600580EF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43CD2D191D0FD18600580EF0 /* Build configuration list for PBXNativeTarget "RSlaunchAdViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43CD2D1A1D0FD18600580EF0 /* Debug */,
+				43CD2D1B1D0FD18600580EF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43CD2D1C1D0FD18600580EF0 /* Build configuration list for PBXNativeTarget "RSlaunchAdViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43CD2D1D1D0FD18600580EF0 /* Debug */,
+				43CD2D1E1D0FD18600580EF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43CD2D1F1D0FD18600580EF0 /* Build configuration list for PBXNativeTarget "RSlaunchAdViewControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43CD2D201D0FD18600580EF0 /* Debug */,
+				43CD2D211D0FD18600580EF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43CD2CE41D0FD18600580EF0 /* Project object */;
+}
